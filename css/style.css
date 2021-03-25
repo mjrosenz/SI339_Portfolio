@@ -30,11 +30,12 @@ nav a{
   padding: 6px;
 }
 nav a:hover{
-
+  color: #45a7b88c;
+  font-style: italic;
 }
 nav a:active{
   font-style: normal;
-  color: #376A61;
+  color: #45a7b88c;
 }
 #mini_nav{
   display: flex;
@@ -98,10 +99,46 @@ h3{
   border-style: outset;
 }
 
-#header_box{
+.header_box{
   text-align: center;
   padding: 20px;
 }
+
+#faq, #request{
+  background-color: #45a7b88c;
+}
+
+#flex_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #45a7b88c;
+}
+
+.question_box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.question_box h4{
+  text-align: right;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 1000;
+  margin-left: 10%;
+}
+
+.drop_menu{
+  border: #376a6185 inset 4px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px;
+}
+
 
 #gallery{
   display: grid;
@@ -137,6 +174,32 @@ h3{
 #gallery> * img {
   width: 135px;
   height: auto;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #45a7b88c;
+}
+
+fieldset>*{
+  font-size: 18px;
+  display: block;
+  margin: 6px auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: .25em;
+  border: #376a6185 inset 4px;
+  border-radius: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+
+#submit{
+  width: 20%;
 }
 
 footer {

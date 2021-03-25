@@ -24,7 +24,18 @@
       </div>
     </header>
     <main>
+      <div class="header_box" id="request">
         <h2>request</h2>
+      </div>
+      <form id="form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyakvl" method="post">
+        <fieldset id="fs-frm-inputs">
+          <input type="text" name="name" id="full-name" placeholder="first and last" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <textarea rows="5" name="message" id="message" placeholder="tell me what you would like the embroidery to be:" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          <input type="submit" value="submit" id="submit">
+        </fieldset>
+      </form>
     </main>
     <footer>
         <p>maxwell rosenzweig &copy; 2021</p>
